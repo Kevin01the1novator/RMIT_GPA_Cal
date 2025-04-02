@@ -54,7 +54,7 @@ int main(){
     //If not choose to manually enter score, then specify score in the score_arr above.
     if (score_arr.empty()) {
         while(1) {
-            cout<<"Enter your score: ";
+            cout<<"Enter your score (enter -1 to Exit Input Loop): ";
             cin >> score;
             if (score >= 1) {
                 score_arr.push_back(score);
