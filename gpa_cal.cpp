@@ -65,7 +65,7 @@ int main(){
                 break;
             }
         }   
-        cout << "Score Entered";
+        cout << "Score Entered: ";
         for (int i : score_arr) {
             cout << i << ", ";
         }
