@@ -72,7 +72,11 @@ int main(){
     }
 
     else {
-        credit_counter = score_arr.size();
+        credit_counter = score_arr.size(); {}
+        cout << "Score Specified in Array: ";
+        for (int i : score_arr) {
+            cout << i << ", ";
+        }
     }
     
     //Calculate total Grade Points
